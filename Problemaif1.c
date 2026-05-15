@@ -8,8 +8,8 @@ int monto, monto_final=0;
   if(monto>2500)
   {
     monto_final=monto-(monto*0.08);
-    printf("Su producto cuenta con descuento: \n");
-    printf("El monto final con descuento aplicado es: %d\n$",monto_final);
+    printf("Su producto cuenta con descuento del 8% : \n");
+    printf("El monto final con descuento aplicado es: %d$\n",monto_final);
   }
   else 
   {
