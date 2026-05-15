@@ -4,7 +4,8 @@ int main()
   float radio, area, circunferencia;
   float pi=3.1416;
 
-  printf("Dame el valor del radio de tu circunferencia: ");
+  printf("====CALCULADORA DE CIRCUNFERENCIAS==== \n");
+  printf("Dame el valor de radio de tu circunferencia: \n");
   scanf("%f", &radio);
 
   area= pi * (radio * radio);
