@@ -3,8 +3,8 @@ int main()
 {
   float dolares, pesos;
   float dolar=11.96;
-
-  printf(" Dame la cantidad de dolares que tienes para decirte cuanto dinero en pesos tienes: ");
+  printf("====BANCO CONVERTIDOR==== \n");
+  printf("Ingrese la cantidad de dolares para convertir a pesos: \n");
   scanf("%f", &dolares);
 
   pesos= dolares * dolar;
